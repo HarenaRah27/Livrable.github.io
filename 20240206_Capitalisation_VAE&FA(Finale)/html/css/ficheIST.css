@@ -1,0 +1,728 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.tête{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    height: 600px;
+    background-color: rgb(241, 249, 252);
+}
+
+.Etête{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 1000px;
+}
+.head{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100px;
+    flex-wrap: wrap;
+    margin-left: 180px;
+}
+@media only screen and (max-width: 1300px){
+    .head{
+        margin-left: 90px;
+    }
+}
+#L1{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L2{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L3{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L4{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+.text1{
+    font-size: 25px;
+}
+#Imgrep{
+    width: 700px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1300px){
+    #Imgrep{
+        margin-left: -90px;
+    }
+}
+.Imgrep2{
+    margin-left: 320px;
+    margin-top: 100px;
+}
+.Imgrep{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 450px;
+    margin-top: -100px;
+}
+.LogoIst{
+    width: 100px;
+    height: 100px;
+    margin-top: 250px;
+    margin-right: 300px;
+    margin-left: -140px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1300px){
+    .LogoIst{
+        height: 150px;
+        margin-left: 810px;
+        margin-top: -150px;
+    }
+}
+#LogoIst{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 50px;
+}
+.TêteText{
+    background-color: rgb(207, 235, 207);
+    width: 500px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    margin-top: -50px;
+    padding: 20px;
+    margin-left: 320px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1300px){
+    .TêteText{
+        margin-left: 230px;
+    }
+}
+.Un{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 1300px){
+    .Un{
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+}
+.Untexte{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    width: 700px;
+    height: 330px;
+    border-radius: 10px;
+}
+.titre1{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,
+    rgba(251, 252, 251, 0.938),
+    rgba(47, 104, 71, 0.7));
+    padding: 20px;
+    margin-top: -30px;
+    height: 50px;
+    margin-left: 40px;
+    width: 600px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+}
+.texte1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.textL{
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.textR{
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.UnImg{
+    width: 50px;
+}
+#Ist4{
+    width: 450px;
+    margin-top: 90px;
+    margin-left: 90px;
+    border-radius: 20px;
+}
+.Deux{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 1300px){
+    .Deux{
+        height: 2400px;
+    }
+}
+.PartI{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Part1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 40px;
+    width: 700px;
+    height: 650px;
+}
+.DeuxTitre{
+    color:rgb(57, 201, 117) ;
+    width: 700px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 05px;
+    padding: 10px;
+    font-size: 20px;
+}
+.DeuxTexte{
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva,
+     Verdana, sans-serif;
+}
+.part1Img{
+    margin-top: 170px;
+    margin-left: 90px;
+}
+@media only screen and (max-width: 1300px){
+    .part1Img{
+        margin-top: -50px;
+    }
+}
+#part1Img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.Part2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma,
+     Geneva, Verdana, sans-serif;
+     margin-top: -60px;
+     border-radius: 10px;
+     margin-left: 10px;
+     width: 800px;
+     padding: 20px;
+     font-size: 20px;
+}
+@media only screen and (max-width: 1300px){
+    .Part2{
+       margin-top: 100px;
+    }
+}
+.Est{
+    color: rgb(32, 81, 216);
+}
+.DeuxTitre2{
+    color: rgb(57, 201, 117);
+    width: 700px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.DeuxTexte2{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva,
+     Verdana, sans-serif;
+}
+.Trois{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.troisL{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;width: 750px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.troisR{
+    width: 380px;
+    font-size: 18px;
+    height: 230px;
+    margin-left: 60px;
+    background-color: cornsilk;
+    display: flex;
+    padding: 40px;
+    margin-top: 600px;
+    border-radius: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 1300px){
+    .troisR{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+.TroisTitre{
+    background-color: rgb(57, 201, 117);
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 50px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.TroisTexte{
+    padding: 20px;
+    width: 700px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+}
+.CEtapeS1{
+    padding: 20px;
+    width: 700px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    background-color: cornsilk;
+}
+.CEtaTi{
+    color: rgb(32, 81, 216);
+}
+.liste{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.frise{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.titreFri{
+    width: 650px;
+    padding: 10px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva,
+    Verdana, sans-serif;
+    background: linear-gradient(to right,
+    rgba(251, 252, 251, 0.938),
+    rgba(47, 104, 71, 0.7));
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.FriTe{
+    margin-left: 25px;
+    width: 650px;
+    background-color: cornsilk;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva,
+    Verdana, sans-serif;
+    padding: 23px;
+}
+
+.CP{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 1300px){
+    .CP{
+        height: 1500px;
+    }
+}
+.CPLe{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 700px;
+    margin-left: 60px;
+    
+    border-radius: 20px;
+}
+.CPLeTi{
+    color: rgb(57, 201, 117);
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.hr2{
+    color: rgb(57, 201, 117);
+}
+.CPLeTe{
+    width: 700px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.CPLeLi{
+    margin-left: 50px;
+    width: 600px;
+}
+.CPRi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    height: 370px;
+}
+@media only screen and (max-width: 1300px){
+    .CPRi{
+        margin-left: 130px;
+    }
+}
+#CPRi1{
+    width: 400px;
+}
+.CPRi1{
+    width: 500px;
+    margin-top: 45px;
+    margin-left: 35px;
+}
+.CPRi2{
+    width: 670px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 35px;
+    background-color: rgba(170, 173, 170, 0.938);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+}
+.CPRiTi{
+    background-color: rgb(57, 201, 117);
+    padding: 20px;
+    margin-left: 10px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.CPRiTe{
+    width: 700px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.Budget{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+}
+.BuImgL{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    }
+.BuTi{
+    color: rgb(32, 81, 216);
+    padding: 20px;
+    margin-left: 30px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#BuImg{
+    width: 650px;
+    margin-top: 20px;
+}
+.RTi{
+    color: rgb(32, 81, 216);
+    padding: 20px;
+    margin-left: 10px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.hr1{
+    color: rgb(32, 81, 216);
+}
+.BuImgR{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.RImg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+#Bu1{
+    width: 400px;
+    height: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.feed{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+#fleche{
+    width: 19px;
+    border-radius: 1px;
+    height: 19px;
+}
+.Pos{
+    width: 500px;
+    margin-left: 80px;
+    background-color: rgba(168, 219, 190, 0.7);
+    border-radius: 20px;
+}
+.PosTi{
+    background-color: darkgreen;
+    padding: 20px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: -30px;
+    font-size: 20px;
+}
+.PosTex{
+    padding: 20px;
+}
+.PosLi{
+    margin-left: 10px;
+}
+.Neg{
+    width: 500px;
+    margin-left: 100px;
+    background-color: rgb(218, 192, 218);
+    padding: 20px;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 1300px){
+    .Neg{
+        margin-top: 60px;
+        margin-left: 500px;
+    }
+}
+.NegTi{
+    background-color: rgb(233, 145, 233);
+    padding: 20px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: -50px;
+    font-size: 20px;
+}
+.NegTex{
+    padding: 20px;
+}
+.Persp{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 700px;
+    margin-left: 500px;
+    font-size: 18px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width: 1300px){
+    .Persp{
+        margin-left: 130px;
+    }
+}
+.PersTi{
+    height: 100px;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: -3
+    0px;
+    font-size: 20px;
+    margin-left: -10px;
+    color: rgb(57, 201, 117);
+}
+.hr{
+    color: rgb(57, 201, 117);
+}
+.PTe1Ti{
+    color: rgb(32, 81, 216);
+}
+.PTe2Ti{
+    color: rgb(32, 81, 216);
+}
+.PTe3Ti{
+    color: rgb(32, 81, 216);
+}
+.PTe4Ti{
+    color: rgb(32, 81, 216);
+}
+.source{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+    background-color: rgb(200, 201, 200);
+    margin-top: 50px;
+    margin-left: 80px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.SouTi{
+    color: rgb(57, 201, 117);
+}
+.LesSou{
+    margin-left: 20px;
+    padding: 10px;
+}
+.contact{
+    background-color: rgb(241, 249, 252);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 90px;
+}
+@media only screen and (max-width: 1300px){
+    .contact{
+        height: 600px;
+        width: 1100px;
+    }
+}
+.Cti{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: -70px;
+    margin-left: 20px;  
+}
+#Cti{
+    width: 300px;
+    height: 80px;
+}
+.TANA{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.CTana1{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 290px;
+    height: 200px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.CTana2{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 270px;
+    height: 200px;
+    padding: 10px;
+    margin-right: 30px;
+}
+.CTana3{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 270px;
+    height: 200px;
+    padding: 10px;
+    margin-right: 30px;
+}
+.CDi1{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 270px;
+    padding: 10px;
+    height: 200px;
+}
+.Diégo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}

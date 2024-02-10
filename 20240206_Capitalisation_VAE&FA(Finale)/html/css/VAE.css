@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.H{
+    height: 400px;
+   background-image: url(../image/bcgTest.PNG);
+}  
+.head{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100px;
+    flex-wrap: wrap;
+}
+#L1{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L2{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L3{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L4{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+.text1{
+    font-size: 25px;
+    color: #fcfce2;
+}
+.titre{
+    display: block;
+    height: 200px;
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
+    margin-left: 450px;
+}
+@media only screen and (max-width: 1300px) {
+    .titre{
+        margin-top: 150px;
+        margin-left: 200px;
+    }
+}
+.titre h1 p{
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #fcfce2;
+    margin-left: 50px;
+}
+hr{
+    margin-left: 80px;
+    color: #fcfce2;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: auto;
+    height: 1020px;
+    margin-top: 40px;
+    background-color: rgb(241, 249, 252);
+}
+@media only screen and (max-width: 1300px) {
+    .intro{
+       height: 1800px;
+    }
+}
+.INTR{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 1300px) {
+    .INTR{
+        margin-left: 300px;
+    }
+}
+#ImgIn{
+    height: 280px;
+}
+.IntrImg{
+    margin-right: 75px;
+    margin-left: 50px;
+    margin-top: 160px;
+}
+.TextTi{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffF;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+}
+.TextCon{
+    width: 750px;
+}
+.enter{
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+}
+.cont{
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.right{
+    width: 750px;
+    margin-left: -500px;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 1300px) {
+    .right{
+        margin-left: 2px;
+       }
+}
+.Unesco{
+    margin-left: 500px;
+    font-size: 30px;
+}
+.src{
+    color: black;
+}
+.close{
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    margin-left: 800px;
+    margin-top: -40px;
+    margin-bottom: -30px;
+}
+.storie{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: gray;
+    margin-top: 100px;
+}
+@media only screen and (max-width: 1300px) {
+    .storie{
+        display: flex;
+        flex-direction: row;
+}
+}
+.storti{
+    margin-top: -40px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    background-color: rgba(97, 216, 147, 0.945);
+    width: 350px;
+    height: 50px;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    
+}
+.blocs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: gainsboro;
+    width: 1200px;
+    height: 400px;
+    margin-left: 65px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 1300px) {
+    .blocs{
+        width: 800px;
+        height: 600px;
+        margin-left: 200px;
+    }
+}
+.Img{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+#Img{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+}
+.btn1{
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    text-decoration: none;
+    background-color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 30px;
+    width: 130px;
+}
+.lien{
+    color: black;
+    text-decoration: none;
+}
+.TextIst{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    margin-right: 200px;
+}
+@media only screen and (max-width: 1300px) {
+    .TextIst{
+        margin-top: -30px;
+        margin-right: 50px;
+        padding: 50px;
+    }
+}
+.IstTi{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    width: 400px;
+    height: 150px;
+}
+.TextMeef{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-right: 200px;
+}
+@media only screen and (max-width: 1300px) {
+    .TextMeef{
+        margin-top: -30px;
+        margin-right: 50px;
+        padding: 50px;
+    }
+}
+.MeefTi{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    width: 400px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+.TextAgro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+@media only screen and (max-width: 1300px) {
+    .TextAgro{
+        margin-top: -30px;
+        margin-right: 50px;
+        padding: 50px;
+    }
+}
+.AgroTi{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    width: 400px;
+    height: 150px;
+}

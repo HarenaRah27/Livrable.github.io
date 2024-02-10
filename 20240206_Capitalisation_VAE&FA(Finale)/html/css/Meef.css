@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+}
+.tête{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    height: 650px;
+    margin-bottom: 20px;
+   background-color: rgb(241, 249, 252);
+}
+.Etête{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 600px;
+    margin-bottom: 40px;
+}
+.head{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100px;
+    flex-wrap: wrap;
+}
+#L1{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L2{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L3{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L4{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+.text1{
+    font-size: 25px;
+}
+#Imgrep{
+    width: 650px;
+    border-radius: 10px;
+}
+@media only screen and (max-width:1300px){
+    #Imgrep{
+        margin-left: -150px;
+    }
+}
+.Imgrep2{
+    margin-left: 320px;
+    margin-top: 30px;
+}
+.Imgrep{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+}
+.LogoMET{
+    width: 100px;
+    height: 100px;
+    margin-top: 280px;
+    margin-right: 300px;
+    margin-left: -200px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1300px){
+    .LogoMET{
+        margin-left: -100px;
+    }
+}
+#LogoMET{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
+.TêteText{
+    background-color: rgb(207, 235, 207);
+    width: 500px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    margin-top: 140px;
+    margin-left: 320px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1300px){
+    .TêteText{
+        margin-left: 170px;
+        margin-top: 140px;
+    }
+}
+.Presentation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.Pres1{
+    background-color: cornsilk;
+    padding: 20px;
+    width: 600px;
+    height: 420px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.Pres2{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#Pres2{
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+}
+.Dom{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 700px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 600px;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 1300px){
+    .Dom{
+        margin-left: 100px;
+    }
+}
+.DomTi{
+    
+    padding: 10px;
+    width: 600px;
+    height: 60px;
+    color: rgb(107, 105, 105);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#DomImg{
+    width: 600px;
+    height: 600px;
+}
+.DomTe{
+    width: 700px;
+    margin-top: 20px;
+}
+.Candidat{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 650px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+@media only screen and (max-width:1300px){
+    .Candidat{
+        display: flex;
+        flex-direction: column;
+        height: 1100px;
+    }
+}
+.Prof{
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 17px;
+}
+.ProfTi{
+    margin-bottom: 20px;
+    width: 400px;
+    background-color: rgb(57, 201, 117);
+    padding: 20px;
+    border-radius: 20px;
+}
+.hr{
+    color: rgb(32, 81, 216);
+}
+.Doss{
+    height: 280px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 200px;
+    background-color: rgb(192, 181, 181);
+}
+@media only screen and (max-width: 1300px){
+    .Doss{
+        margin-top: 50px;
+    }
+}
+.DosTi{
+    margin-bottom: 20px;
+    color: rgb(57, 201, 117);
+}
+.Procedure{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 700px;
+    margin-top: -100px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    height: 1390px;
+    padding: 20px;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ProTi{
+    background-color: rgb(57, 201, 117) ;
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.Pro1{
+    margin-top: 20px;
+}
+.Pro2{
+    margin-top: 20px;
+}
+.Pro3{
+    margin-top: 20px;
+}
+.Pro4{
+    margin-top: 20px;
+}
+.Pro5{
+    margin-top: 20px;
+}
+.Pro6{
+    margin-top: 20px;
+}
+.ProFin{
+    margin-top: 30px;
+}
+.ProTI{
+    color: rgb(57, 201, 117);
+}
+.Composi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding: 20px;
+
+}
+.CompImg{
+    margin-left: 40px;
+}
+#CompImg{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.Compte{
+    margin-left: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: rgb(192, 181, 181) ;
+    border-radius: 20px;
+    padding: 20px;
+   height: 190px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+table{
+    padding: 20px;
+}
+.Tr{
+    background-color: rgb(41, 41, 207);
+}
+.TdT{
+    background-color: rgb(124, 25, 124);
+}
+.TdsT{
+    background-color: rgb(85, 85, 165);
+}
+.Td{
+    background-color: rgb(142, 142, 177);
+}
+.ComTi{
+    color: rgb(57, 201, 117);
+    margin-bottom: 10px;
+}
+.Forma{
+    list-style-type:circle;
+    margin-left: 20px;
+}
+.Paragr{
+    background-color: cornsilk;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.feed{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.Pos{
+    width: 500px;
+    margin-left: 60px;
+    padding: 20px;
+    height: 300px;
+    font-size: 19px;
+    background-color: rgba(168, 219, 190, 0.7);
+    border-radius: 20px;
+}
+.PosTi{
+    background-color: darkgreen;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: -50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.PosTex{
+    padding: 20px;
+}
+.PosLi{
+    margin-left: 10px;
+}
+.Neg{
+    width: 500px;
+    margin-left: 100px;
+    background-color: rgb(218, 192, 218);
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 19px;
+    border-radius: 20px;
+}
+@media only screen and (max-width:1300px){
+    .Neg{
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+}
+.NegTi{
+    background-color: rgb(216, 29, 216);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: -70px;
+    font-size: 20px;
+}
+.NegTex{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.formation{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 600px;
+    margin-left: 40px;
+}
+.FormTi{
+    background-color: rgb(57, 201, 117);
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.hr{
+    color: rgb(32, 81, 216);
+}
+.St{
+    color: rgb(57, 201, 117);
+}
+.autre{
+    margin-top: 20px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+}
+.footImg{
+    margin-right: 170px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+#footImg{
+    height: 300px;
+    border-radius: 20px;
+    width: 450px;
+}
+.footer{
+    padding: 20px;
+    width: 600px;
+    margin-bottom: 40px;
+    background-color:  rgb(192, 181, 181); 
+    border-radius: 20px;
+}
+.footTi{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: rgb(57, 201, 117); 
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+}
+.source{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 80px;
+    background-color: rgb(192, 181, 181);
+    padding: 20px;
+    border-radius: 20px;
+}
+.SouTi{
+    color: rgb(57, 201, 117);
+}
+.LesSou{
+    margin-left: 20px;
+    padding: 10px;
+}
+.contact{
+    background-color: rgb(241, 249, 252);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 90px;
+}
+.Cti{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: -70px;
+    margin-left: 20px;  
+}
+#Cti{
+    width: 300px;
+    height: 80px;
+}
+.TANA{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.CTana1{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 290px;
+    height: 170px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.CTana2{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 290px;
+    height: 170px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 10px;
+}

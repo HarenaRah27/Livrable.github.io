@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.tête{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    height: 700px;
+    background-color: rgb(241, 249, 252);
+}
+.Etête{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 600px;
+}
+.head{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100px;
+    flex-wrap: wrap;
+}
+#L1{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L2{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L3{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L4{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+.text1{
+    font-size: 25px;
+}
+#Imgrep{
+    width: 650px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1300px){
+    #Imgrep{
+        margin-left: -130px;
+        margin-top: 30px;
+    }
+}
+.Imgrep2{
+    margin-left: 320px;
+    margin-top: 30px;
+}
+.Imgrep{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+}
+.LogoINTH{
+    width: 100px;
+    height: 100px;
+    margin-top: 340px;
+    margin-right: 300px;
+    margin-left: -200px;
+    border-radius: 10px;
+}
+#LogoINTH{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
+@media only screen and (max-width: 1300px){
+    #LogoINTH{
+        margin-left: 110px;
+    }
+}
+.TêteText{
+    background-color: rgb(207, 235, 207);
+    width: 516px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    margin-top: 230px;
+    margin-left: 320px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1300px){
+    .TêteText{
+        margin-left: 190px;
+        margin-top: 230px;
+        padding: 10px;
+    }
+}
+.Presentation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    height: 300px;
+    
+}
+@media only screen and (max-width: 1300px){
+    .Presentation{
+        height: 550px;
+    }
+}
+.PresTe{
+    margin-top: 30px;
+    height: 220px;
+    width: 600px;
+    padding: 20px;
+    background-color: cornsilk;
+    border-radius: 20px;
+}
+#PresImg{
+    width: 400px;
+    height: 220px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.LoTexte{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 820px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 19px;
+    margin-left: 500px;
+}
+@media only screen and (max-width: 1300px){
+    .LoTexte{
+        margin-left: 90px;
+    }
+}
+.Tex1{
+    margin-top: 20px;
+}
+.Tex2{
+    margin-top: 20px;
+}
+.Tex3{
+    margin-top: 20px;
+}
+.Tex4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.modern{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    height: 500px;
+}
+@media only screen and (max-width: 1300px){
+    .modern{
+        height: 1000px;
+    }
+}
+#moderImg{
+    width: 450px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+@media only screen and (max-width: 1300px){
+    #moderImg{
+        margin-left: 200px;
+    }
+}
+.moderImg{
+    margin-top: 70px;
+}
+.modern1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    background-color: rgb(201, 194, 194);
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.moTi{
+    color: rgb(57, 201, 117) ;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.fin{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 600px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 1300px){
+    .fin{
+        height: 1200px;
+    }
+}
+.Mode{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+}
+@media only screen and (max-width: 1300px){
+    .Mode{
+        margin-left: 130px;
+    }
+}
+.DeTi{
+    color: rgb(57, 201, 117);
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.Strat{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 550px;
+    margin-left: 130px;
+}
+.strati{
+    color: rgb(57, 201, 117);
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.statImg{
+    margin-top: 55px;
+    margin-left: 190px;
+    border-radius: 20px;
+}
+#statImg{
+    width: 300px;
+    height: 200px;
+}
+.contact{
+    background-color: rgb(241, 249, 252);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 90px;
+}
+.Cti{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: -70px;
+    margin-left: 20px;  
+}
+#Cti{
+    width: 300px;
+    height: 80px;
+}
+.TANA{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.CTana1{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 290px;
+    height: 170px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 10px;
+}

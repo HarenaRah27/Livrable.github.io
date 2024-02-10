@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.tête{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    height: 700px;
+    background-color: rgb(241, 249, 252);
+}
+.Etête{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+    margin-bottom: 40px;
+}
+.head{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100px;
+    flex-wrap: wrap;
+    margin-left: 180px;
+}
+#L1{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L2{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L3{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L4{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+.text1{
+    font-size: 25px;
+}
+#Imgrep{
+    width: 650px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1300px){
+    #Imgrep{
+        margin-left: -150px;
+        margin-top: 20px;
+    }
+}
+.Imgrep2{
+    margin-left: 320px;
+    margin-top: 30px;
+}
+.Imgrep{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+}
+@media only screen and (max-width: 1300px){
+    .TêteText{
+        margin-left: 170px;
+        margin-top: 200px;
+    }
+}
+.LogoOPC{
+    width: 100px;
+    height: 100px;
+    margin-top: 280px;
+    margin-right: 300px;
+    margin-left: -200px;
+    border-radius: 10px;
+}
+#LogoOPC{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
+@media only screen and (max-width: 1300px){
+    #LogoOPC{
+        margin-left: 100px;
+    }
+}
+.TêteText{
+    background-color: rgb(207, 235, 207);
+    width: 516px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    margin-top: 130px;
+    margin-left: 320px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1300px){
+    .TêteText{
+        margin-left: 170px;
+        margin-top: 130px;
+    }
+}
+.Pres{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 65px;
+    height: 800px;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width: 1300px){
+    .Pres{
+        height: 2500px;
+    }
+}
+.Pres1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: cornsilk;
+    width: 450px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.Pres1Ti{
+    background:  linear-gradient(to right,
+    rgba(251, 252, 251, 0.938),
+    rgba(47, 104, 71, 0.7));
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: -50px;
+    font-size: 20px;
+    width: 400px;
+}
+.Pres1te{
+    padding: 20px;
+    font-size: 18px;
+}
+.Pres1Img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 650px;
+    margin-left: -450px;
+}
+#Pres1Img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+.nbr{
+    list-style-position: inside;
+    list-style-type: decimal-leading-zero
+}
+.Pres2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgb(194, 185, 185);
+    width: 550px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.PetitTe{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 610px;
+    height: 400px;
+    padding: 20px;
+    margin-left: 600px;
+}
+@media only screen and (max-width: 1300px){
+    .PetitTe{
+        margin-left: 100px;
+    }
+}
+.PTeTi{
+    color: rgb(57, 201, 117);
+    padding: 20px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.PTeTe{
+    font-size: 19px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Missions{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 800px;
+    margin-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.MiTi{
+    color: rgb(32, 81, 216);
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+.hr{
+    color: rgb(32, 81, 216);
+}
+.MiTe{
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 18px;
+}
+.EtAlter{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 800px;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 450px;
+    font-family: 'Segoe UI', Tahoma, Geneva, 
+    Verdana, sans-serif;
+}
+@media only screen and (max-width: 1300px){
+    .EtAlter{
+        margin-left: 100px;
+    }
+}
+.ETti{
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(57, 201, 117);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 20px;
+}
+.Et1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.Et1Ti{
+    width: 300px;
+    margin-bottom: 20px;
+    color: rgb(32, 81, 216);
+}
+.Et2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.Et2Ti{
+    width: 300px;
+    margin-bottom: 20px;
+    color: rgb(32, 81, 216);
+}
+.Et3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.Et3Ti{
+    width: 300px;
+    margin-bottom: 20px;
+    color: rgb(32, 81, 216);
+}
+.Et4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.Et4Ti{
+    width: 300px;
+    margin-bottom: 20px;
+    color: rgb(32, 81, 216);
+}
+.Et5{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.Et5Ti{
+    width: 300px;
+    margin-bottom: 20px;
+    color: rgb(32, 81, 216);
+}
+.St{
+    color: rgb(57, 201, 117);
+}
+.Fin{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    width: 800px;
+    margin-left: 40px;
+}
+.FinTi{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(57, 201, 117);
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.Source{
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    margin-bottom: 30px;
+    background-color: rgb(200, 201, 200);;
+}
+

@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.H{
+    height: 400px;
+    background-image: url(../image/bcgTest.PNG);
+}
+.head{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100px;
+    flex-wrap: wrap;
+}
+#L1{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L2{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L3{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L4{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+.text1{
+    font-size: 25px;
+    color: #fcfce2;
+}
+.titre{
+    display: block;
+    height: 200px;
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
+    margin-left: 400px;
+}
+.titre h1 p{
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #fcfce2;
+}
+hr{
+    color: #fcfce2;
+}
+.Tete{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 360px;
+}
+#FEA{
+    width: 700px;
+    height: 450px;
+}
+.storie{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: gray;
+    margin-top: 100px;
+}
+.storti{
+    margin-top: -40px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    background-color: rgba(97, 216, 147, 0.945);
+    width: 500px;
+    height: 70px;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    
+}
+.blocs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: gainsboro;
+    width: 1200px;
+    height: 400px;
+    margin-left: 65px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 1300px) {
+    .blocs{
+        width: 800px;
+        height: 600px;
+        margin-left: 200px;
+    }
+}
+.Img{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+#Img{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+}
+.btn1{
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    text-decoration: none;
+    background-color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+}
+.lien{
+    color: black;
+    text-decoration: none;
+}
+.TextInth{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    margin-right: 200px;
+}
+@media only screen and (max-width: 1300px) {
+    .TextInth{
+        margin-top: -30px;
+        margin-right: 50px;
+        padding: 50px;
+    }
+}
+.InthTi{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    width: 400px;
+    height: 150px;
+}
+.TextEGS{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-right: 200px;
+}
+@media only screen and (max-width: 1300px) {
+    .TextEGS{
+        margin-top: -30px;
+        margin-right: 50px;
+        padding: 50px;
+    }
+}
+.EGSTi{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    width: 400px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+.TextOPC{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+@media only screen and (max-width: 1300px) {
+    .TextOPC{
+        margin-top: -30px;
+        margin-right: 50px;
+        padding: 50px;
+    }
+}
+.OPCTi{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    width: 400px;
+    height: 150px;
+}

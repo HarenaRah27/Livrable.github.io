@@ -1,0 +1,645 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.H{
+    height: 800px;
+    background-color: rgb(241, 249, 252);
+}
+.head{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 70px;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 1160px) {
+    .head{
+        height: 130px;
+    }
+}
+#L1{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L2{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L3{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+#L4{
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+}
+.text1{
+    font-size: 25px;
+}
+.barre{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 10px;
+   
+}
+.item a:nth-of-type(1){
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 20px;
+}
+.barre ul li a {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-right: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 1130px) {
+    .barre{
+        height: 100px;
+        margin-top: 120px;
+    }
+}
+#carrousel{
+    width: 1000px;
+    height: 500px;
+    border: solid 4px #fff;
+    box-shadow:0 0 14px rgba(0,0,0,0.3);
+    position: relative;
+    overflow: hidden;
+}
+.carrousel{
+    margin: 0;
+    display: flex;
+    margin-top: -100px;
+    align-items: center;
+    justify-content: center;
+    min-height: 120vh;
+    background-size: cover;
+}
+
+#container{
+    width: 1000px;
+    height: 500px;
+}
+
+.bouton{
+    position: absolute;
+    width: 70px;
+    cursor: pointer;
+    top: 200px;
+}
+.photo{
+    width: 1000px;
+    height: 500px;
+    margin: 0;
+    display: inline-block;
+    background-size: cover;
+}
+#g{
+    left: 0;
+    opacity: 0.4;
+    transform: rotate(0deg);
+    transition: all 0.3 ease;
+    border-radius: 60px;
+}
+#d{
+    right: 0;
+    opacity: 0.4;
+    transform: rotate(180deg);
+    transition: all 0.3 ease;
+    border-radius: 60px;
+}
+#g:hover{
+    transform: rotate(0deg) scale(1.1);
+    opacity: 1;
+    transition: all 0.3 ease;
+}
+#d:hover{
+    transform: rotate(180deg) scale(1.1);
+    opacity: 1;
+    transition: all 0.3 ease;
+}
+.vide{
+    background-color: white;
+    height: 150px;
+}
+.stories{
+    background-image: url(../image/ok.png);
+    background: linear-gradient(to right,
+    rgba(251, 252, 251, 0.938),
+    rgb(241, 249, 252));
+    height: 850px;
+}
+@media only screen and (max-width: 1305px) {
+    .stories{
+        height: 1400px;
+    }
+}
+.Photo{
+    margin-top: -100px;
+    margin-left: 800px;    
+}
+@media only screen and (max-width: 1305px) {
+    .Photo{
+        margin-top: 20px;
+        margin-left: 100px;
+       
+    }
+}
+@media only screen and (max-width: 433px) {
+    .Photo{
+        margin-left: 100px;
+        width: 200px;
+        height: 100px;
+    }
+}
+.text1{
+    font-size: 25px;
+}
+.paragraph-container{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.paragraph{
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 1305px) {
+    .paragraph{
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+    }
+}
+.D{
+    margin-top: 50px;
+    margin-left: 50px;
+    border: solid 3px rgb(14, 28, 66) ;
+    border-radius: 20px;
+}
+.D h1 p{
+    font-family: 'Segoe UI', Tahoma,
+     Geneva, Verdana, sans-serif;
+     color: rgb(14, 28, 66);
+     width: 250px;
+     margin-top: 25px;
+     margin-left: 40px;
+}
+.G{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.G p{
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    color: black;
+    width: 700px;
+}
+.A{
+    margin-top: 30px;
+    margin-left: 170px;
+    border: solid 3px rgb(14, 28, 66) ;
+    border-radius: 20px;
+}
+.A h1 p{
+font-family: 'Segoe UI', Tahoma,
+ Geneva, Verdana, sans-serif;
+ color: rgb(14, 28, 66);
+ width: 350px;
+ margin-top: 25px;
+ margin-bottom: 30px;
+ margin-left: 30px;
+}
+.B{
+margin-top: 70px;
+margin-left: 80px;
+}
+.B p{
+font-family: 'Segoe UI', Tahoma, 
+Geneva, Verdana, sans-serif;
+color: black;
+width: 700px;
+}
+.C{
+    margin-top: 50px;
+    margin-left: 50px;
+    border: solid 3px rgb(14, 28, 66) ;
+    border-radius: 20px;
+}
+.C h1 p{
+    font-family: 'Segoe UI', Tahoma,
+     Geneva, Verdana, sans-serif;
+     color: rgb(14, 28, 66);
+     margin-top: 25px;
+     width: 250px;
+     margin-left: 40px;
+}
+.E{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.E p{
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    color: black;
+    width: 700px;
+}
+.Dif{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(150, 147, 147);
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    height: 200px;
+}
+@media only screen and (max-width: 1305px) {
+    .Dif{
+        width: 1000px;
+        height: 250px;
+    }
+ }
+#Diff{
+   margin-top: -40px; 
+   border-radius: 20px;
+   height: 70px;
+}
+.ttl{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-between;
+    height: 70px;
+    width: 550px;
+    border-radius: 20px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+.m{
+font-family: 'Segoe UI', Tahoma, 
+Geneva, Verdana, sans-serif;
+font-size: 17px;
+color: #000;
+width: 900px;
+margin: 20px;
+margin-left: 100px;
+margin-top: -30px;
+}
+@media only screen and (max-width: 1305px) {
+    .m{
+        margin-left: 20px;
+    }
+ }
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+}
+.FI{
+    background-color: hsl(115, 15%, 83%);
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+}
+.FI1{
+    background-color:  rgba(97, 216, 147, 0.7);
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva,
+     Verdana, sans-serif;
+     border-radius: 20px;
+     margin-top: -20px;
+     margin-left: 75px;
+}
+.FI3{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: -30px;
+    padding: 10px;
+}
+.FI2{
+    font-family: 'Segoe UI', Tahoma,
+     Geneva, Verdana, sans-serif;
+     font-size: 15px;
+     width: 300px;
+     margin-left: 50px;
+     margin-top: 30px;
+}
+#book1{
+    height: 150px;
+    width: 150px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.FC{
+    background-color: rgba(97, 216, 147, 0.7);
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+}
+.FC1{
+    background-color:hsl(115, 15%, 83%);
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva,
+     Verdana, sans-serif;
+     margin-top: -20px;
+     margin-left: 75px;
+}
+.FC2{
+    font-family: 'Segoe UI', Tahoma,
+     Geneva, Verdana, sans-serif;
+     font-size: 13px;
+     width: 350px;
+     margin-left: 30px;
+     margin-top: 15px;
+}
+.FC3{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: -30px;
+}
+#book2{
+    height: 140px;
+    width: 140px;
+    margin-left: 130px;
+    margin-top: 15px;
+}
+.FEA{
+    background-color: hsl(115, 15%, 83%);
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+}
+@media only screen and (max-width: 1300px){
+    .FEA{
+        margin-top: 200px;
+        margin-left: 270px;
+    }
+}
+.FEA1{
+    background-color: rgba(97, 216, 147, 0.7);
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva,
+     Verdana, sans-serif;
+     margin-top: -20px;
+     margin-left: 55px;
+}
+.FEA2{
+    font-family: 'Segoe UI', Tahoma,
+     Geneva, Verdana, sans-serif;
+     font-size: 13px;
+     width: 350px;
+     margin-left: 30px;
+     margin-top: 15px;
+}
+.FEA3{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: -30px;
+}
+#book3{
+    height: 140px;
+    width: 140px;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+.TEL{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: linear-gradient(to right,
+    rgba(251, 252, 251, 0.938),
+    rgba(97, 216, 147, 0.7));
+    margin-top: 100px;
+}
+#DocImg{
+    width: 350px;
+    height: 195px;
+    margin-top: 120px;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+.telechargement{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 850px;
+    height: 370px;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 433px) {
+    .telechargement{
+        margin-left: 100px;
+    }
+}
+.titredoc{
+    font-size: 25px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    width: 800px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.Documents{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.doc1{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 55px;
+    background-color:hsl(0, 0%, 99%);
+    border-radius: 20px;
+}
+.tel1 :hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 1px 1px 20px black;
+}
+#tel11{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 5px; 
+}
+.doctex1{
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 105px;
+}
+.doc2{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 55px;
+    border-radius: 20px;
+    background-color:hsl(0, 0%, 99%);
+    margin-top: 20px;
+}
+.doctex2{
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#tel22{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.tel2 :hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 1px 1px 20px black;
+}
+.doc3{
+        display: flex;
+        flex-direction: row;
+        width: 350px;
+        height: 55px;
+        border-radius: 20px;
+        background-color:hsl(0, 0%, 99%);
+        margin-top: 20px;
+}
+.doctex3{
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 75px;
+}
+#tel33{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    
+    margin-top: 5px;
+}
+.tel3 :hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 1px 1px 20px black;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 37px;
+    margin-left: 100px;
+}
+.doc4{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 50px;
+    background-color:hsl(0, 0%, 99%);
+    border-radius: 20px;
+}
+.doctex4{
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+#tel44{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 6px;
+    margin-top: 5px;
+}
+.tel4 :hover{
+    transform: scale(1.05);
+    cursor: pointer; 
+    box-shadow: 1px 1px 20px black;
+}
+.doc5{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    background-color:hsl(0, 0%, 99%);
+    margin-top: 20px;
+}
+.doctex5{
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+#tel55{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.tel5 :hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 1px 1px 20px black;
+}
